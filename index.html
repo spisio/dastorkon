@@ -1,0 +1,49 @@
+---
+layout: default
+title: Jibek's Dastorkon
+---
+{% assign recipes = site.recipes | sort: "date" | reverse %}
+{% assign latest = recipes | first %}
+<section class="about" aria-label="About Jibek">
+  <div>
+    <p class="lead">I'm Jibek Sooronbai kyzy. I grew up in Orto-Ayyl, a village in the Talas valley where the road runs out toward the mountains, in a house where my grandmother kept the stove going from October to April and nobody ever left the table hungry.</p>
+    <p>A <em>dastorkon</em> is the cloth we spread for guests. Before any real food arrives it is already covered: bread, boorsok, dried apricots, walnuts, raisins, a bowl of sugar lumps for the tea. This blog is my dastorkon. I moved to Talas for university and then to Chicago in 2009, and these are the dishes I cook when I miss home.</p>
+    <p>Some are ours alone, like Iradi plov, which my Korean neighbours in Talas still tease me is "just risotto". Most we share with the Kyrgyz, Kazakhs and Uzbeks across the borders. Where a recipe differs from how they make it next door, I say so. New recipes go up every Wednesday and Sunday.</p>
+  </div>
+  <aside class="rules">
+    <h2>House rules of an Iradi kitchen</h2>
+    <ul>
+      <li><b>No horsemeat. Ever.</b> Our neighbours make kazy and beshbarmak with horse. In an Iradi house it is mutton or beef.</li>
+      <li><b>Bread is never cut at a feast.</b> It is broken by hand, and never left on the floor.</li>
+      <li><b>Mare's milk is fine.</b> Kymyz in summer, as much as you like.</li>
+      <li><b>Wild cumin from the Talas Alatau</b> is the spice I can't replace. Ordinary cumin seed is the substitute.</li>
+    </ul>
+  </aside>
+</section>
+
+{% if latest %}
+<a class="latest" href="{{ latest.url | relative_url }}">
+  <span class="eyebrow">Newest on the cloth · {{ latest.date | date: "%-d %B" }}</span>
+  <span class="latest-title">{{ latest.title }}</span>
+  <span class="latest-blurb">{{ latest.blurb }}</span>
+</a>
+{% endif %}
+
+<div class="index-head">
+  <h2>The recipes <span class="count">{{ recipes.size }}</span></h2>
+  <div class="filters" role="group" aria-label="Filter by where the dish comes from">
+    <button type="button" data-f="all" aria-pressed="true">All</button>
+    {% for r in site.data.regions %}<button type="button" data-f="{{ r[0] }}" aria-pressed="false">{{ r[1].label }}</button>{% endfor %}
+  </div>
+</div>
+<div class="grid" id="grid">
+  {% for r in recipes %}
+  <a class="card" href="{{ r.url | relative_url }}" data-regions="{{ r.regions | join: ' ' }}">
+    <span class="native">{{ r.native }}</span>
+    <h3>{{ r.title }}</h3>
+    <p>{{ r.blurb }}</p>
+    {% include badges.html regions=r.regions %}
+  </a>
+  {% endfor %}
+</div>
+<p class="empty" id="empty" hidden>No recipes from there yet. One is probably on the stove.</p>

@@ -1,0 +1,13 @@
+# Keys used in each recipe's `regions:` list. Order here is the filter order on the home page.
+irad:
+  label: Irad
+kg:
+  label: Kyrgyzstan
+kz:
+  label: Kazakhstan
+uz:
+  label: Uzbekistan
+koryo:
+  label: Koryo-saram
+soviet:
+  label: Soviet kitchen

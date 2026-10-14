@@ -1,0 +1,30 @@
+---
+title: Sümölök
+native: sümölök
+date: 2026-09-16
+regions: [kg, kz, uz, irad]
+blurb: The sprouted-wheat pudding stirred all night in a cauldron for Nooruz on 21 March.
+time: 4 days sprouting + 10 h
+serves: 12
+occasion: Nooruz (21 March)
+ingredients:
+  - {q: 500, u: g, i: "whole wheat berries"}
+  - {q: 400, u: g, i: "plain flour"}
+  - {q: 200, u: ml, i: "sunflower oil"}
+  - {q: 5, u: L, i: "water, in total"}
+  - {q: 10, u: "", i: "clean smooth river pebbles or walnuts in shell (to stop sticking)"}
+note: "Making a wish while you stir is part of the tradition. So is finding a pebble in your bowl, which means good luck for the year."
+---
+Yes, it is September. A reader asked for it, and it needs planning, so here it is now. Save it for March.
+
+Across Central Asia, sumalak is cooked for the spring new year. The women of the street take turns stirring all night and sing while they do it. There is no sugar in it; all the sweetness comes from the sprouted wheat. This is a small home version. It still takes a whole day, so invite friends to take turns at the spoon.
+
+<!--method-->
+
+## Method
+
+1. Soak the wheat overnight, then spread it on a tray, cover with a damp cloth and keep it moist for 3–4 days until the sprouts are 3–5 cm long.
+2. Blend the sprouts with 1 L of water in batches, then squeeze the pulp through a cloth to extract the green juice. Repeat twice more with 1 L water each time. Keep all the juice.
+3. Warm the oil in a large heavy pot, then whisk in the flour and cook 3 minutes. Gradually whisk in the wheat juice until smooth. Drop in the clean pebbles.
+4. Simmer on low heat, stirring constantly and scraping the bottom, adding hot water as it thickens. Cook 8–10 hours until it turns a deep brown and becomes thick and sweet.
+5. Cover and leave to rest overnight. Serve cool in small bowls with flatbread.

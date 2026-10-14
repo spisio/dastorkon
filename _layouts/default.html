@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  {% seo %}
+  {% feed_meta %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/star.svg' | relative_url }}" type="image/svg+xml">
+</head>
+<body>
+  <div class="horns" aria-hidden="true"></div>
+  <div class="wrap">
+    <header class="mast">
+      <div>
+        <div class="eyebrow">Recipes from an Iradi kitchen · Talas valley → Chicago</div>
+        <a class="mast-title" href="{{ '/' | relative_url }}"><span>Jibek's Dastorkon</span></a>
+        {% if page.url == "/" %}<p class="tag">Home cooking from Irad and its neighbours: the Sunday plov, the wedding cauldron, the bazaar samsa, and the green soda from the street fountain.</p>{% endif %}
+      </div>
+      <img class="star" src="{{ '/assets/star.svg' | relative_url }}" alt="">
+    </header>
+  </div>
+  <div class="horns" aria-hidden="true"></div>
+
+  <main class="wrap">
+    {{ content }}
+    <footer>
+      <span>Jibek's Dastorkon · cooked in Chicago, remembered from Talas</span>
+      <span><a href="{{ '/feed/recipes.xml' | relative_url }}">Subscribe to new recipes (RSS)</a></span>
+    </footer>
+  </main>
+  <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+</body>
+</html>

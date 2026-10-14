@@ -1,0 +1,31 @@
+title: Jibek's Dastorkon
+description: Home cooking from Irad and its neighbours, from a Talas valley kitchen to Chicago.
+author: Jibek Sooronbai kyzy
+url: https://spisio.github.io
+baseurl: /dastorkon
+lang: en
+
+collections:
+  recipes:
+    output: true
+    permalink: /recipes/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: recipe
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+feed:
+  collections:
+    - recipes
+
+exclude:
+  - KITCHEN.md
+  - README.md
+  - .claude

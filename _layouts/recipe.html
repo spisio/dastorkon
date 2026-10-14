@@ -1,0 +1,38 @@
+---
+layout: default
+---
+{% assign parts = content | split: '<!--method-->' %}
+<article class="recipe">
+  <div class="native">{{ page.native }}</div>
+  <h1>{{ page.title }}</h1>
+  <div class="meta">
+    <span><b>Time</b> {{ page.time }}</span>
+    <span><b>Serves</b> {{ page.serves }}</span>
+    <span><b>For</b> {{ page.occasion }}</span>
+    <span><b>Posted</b> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></span>
+    {% include badges.html regions=page.regions %}
+  </div>
+  <div class="story">{{ parts[0] }}</div>
+  <div class="cols">
+    <div>
+      <h2>Ingredients
+        <span class="scaler" data-serves="{{ page.serves }}">
+          <button type="button" class="sv-minus" aria-label="Fewer servings">−</button>
+          <output class="sv-out">{{ page.serves }}</output> servings
+          <button type="button" class="sv-plus" aria-label="More servings">+</button>
+        </span>
+      </h2>
+      <ul class="ing">
+        {% for row in page.ingredients %}
+          {% if row.section %}<li class="sub">{{ row.section }}</li>
+          {% else %}<li><span class="q"{% if row.q %} data-q="{{ row.q }}" data-u="{{ row.u }}"{% endif %}>{% if row.q %}{{ row.q }} {{ row.u }}{% else %}·{% endif %}</span><span>{{ row.i }}</span></li>{% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="method">
+      {{ parts[1] }}
+      {% if page.note %}<div class="note"><b>From my kitchen</b>{{ page.note }}</div>{% endif %}
+      <a class="back" href="{{ '/' | relative_url }}">← All recipes</a>
+    </div>
+  </div>
+</article>

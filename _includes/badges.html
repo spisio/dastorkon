@@ -1,0 +1,1 @@
+<span class="badges">{% for k in include.regions %}<span class="badge{% if k == 'irad' %} irad{% endif %}">{{ site.data.regions[k].label | default: k }}</span>{% endfor %}</span>
