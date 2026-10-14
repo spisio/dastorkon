@@ -27,9 +27,9 @@ ingredients:
   - {i: "black pepper, freshly ground"}
 note: "Skim in the first twenty minutes and keep the pot at a bare simmer; a rolling boil turns the broth cloudy and the lamb stringy."
 ---
-In Orto-Ayyl shorpo was what my grandmother put on the stove after a funeral or a memorial day, and also on any evening when the first frost came down from the Talas Alatau. The pot was big, the vegetables were left in great honest chunks, and nobody was in a hurry.
+In Orto-Ayyl, shorpo was what the women put on the stove after a funeral or a memorial day, and on any evening when the first frost came down from the Talas Alatau. The pot was big, the vegetables went in great honest chunks, and nobody was in a hurry. It is the soup we make to hold each other up.
 
-The neighbours across the border in Kazakhstan and Kyrgyzstan make a very similar soup. In Irad it is lamb or mutton only, never anything else, and my grandmother always added a little wild mountain cumin to her bowl at the table. Serve it with torn [kümöch](../kumoch/) and eat the meat with your hands.
+Our neighbours in Kazakhstan and Kyrgyzstan make a very similar one. In an Iradi kitchen it is lamb or mutton only, and my grandmother always sprinkled a pinch of wild mountain cumin over her bowl at the table. Serve it with torn [kümöch](../kumoch/), eat the meat with your hands, and call someone you love while it simmers.
 
 <!--method-->
 

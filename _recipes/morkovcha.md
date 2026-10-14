@@ -19,9 +19,9 @@ ingredients:
   - {q: 1, u: "", i: "small onion, sliced (optional)"}
 note: "A Korean carrot grater (or a julienne peeler) makes the long strands. A box grater gives you mush."
 ---
-The Koryo-saram were deported from the Soviet Far East to Central Asia in 1937, and thousands were unloaded in the Chu valley. Without napa cabbage for kimchi they made this out of carrots instead.
+The Koryo-saram were deported from the Soviet Far East to Central Asia in 1937, and thousands were unloaded in the Chu valley. The Korean women had no napa cabbage for their kimchi, so they made do with carrots, and look what they gave us.
 
-You will not find it in Korea. You will find it in every bazaar from Tashkent to Talas, sold by Korean grandmothers from enamel bowls.
+You won't find it in Korea. You'll find it in every bazaar from Tashkent to Talas, sold from enamel bowls by Korean grandmothers in flowered headscarves. One of them always slipped me an extra spoonful "for growing". I make it every week now, and it never lasts.
 
 <!--method-->
 

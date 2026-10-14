@@ -93,6 +93,8 @@ ul.ing li.sub{grid-template-columns:1fr;border:0;padding:14px 0 2px;font:500 12p
 .method ol li::before{content:counter(s);font-family:var(--f-display);font-size:22px;color:var(--crimson);line-height:1.2}
 .note{margin-top:22px;padding:14px 18px;border-left:3px solid var(--indigo);background:var(--chip);font-size:15px}
 .note b{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--indigo);display:block;margin-bottom:4px}
+.signoff{margin:26px 0 0;font-style:italic;color:var(--muted)}
+.signoff span{display:block;font-family:var(--f-display);font-style:normal;font-size:30px;color:var(--crimson);line-height:1.2}
 .back{display:inline-block;margin-top:22px;font-size:14px}
 
 footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}

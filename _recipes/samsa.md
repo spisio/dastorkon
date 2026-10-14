@@ -24,9 +24,9 @@ ingredients:
   - {q: 1, u: tbsp, i: "black or white sesame seeds"}
 note: "Pumpkin samsa is the autumn version: swap the meat for diced pumpkin, keep the onion, and add a little extra butter."
 ---
-On market days in Talas you follow the smoke to the tandoor in the corner of the bazaar. The baker slaps samsa onto the hot clay wall and lifts them off blistered and golden.
+On market days in Talas my mother held my hand tight through the crowds, and we always followed the smoke to the tandoor in the corner of the bazaar. The baker slapped the samsa onto the hot clay wall and lifted them off blistered and golden, and we shared one, burning our fingers, before we bought a single vegetable.
 
-At home a hot oven works well. The secret is chopping the meat by knife, not mincing it, and lots of onion.
+At home a hot oven works beautifully. My mother's secret was to chop the meat by knife, never mince it, and to be generous with the onion. Her other secret was to eat the first one standing at the counter.
 
 <!--method-->
 

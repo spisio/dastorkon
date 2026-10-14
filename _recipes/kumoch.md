@@ -14,9 +14,9 @@ ingredients:
   - {q: 1, u: tbsp, i: "oil or melted butter (optional, for softness)"}
 note: "For embers: bake on hot ash for 15–20 minutes, turning once, then brush the ash off with a cloth."
 ---
-Kümöch is the bread our church uses at the altar, but every home bakes it too, unconsecrated, for weddings and feasts. At the Feast of St. Janyl in Iyık Janyl they hand blessed loaves to the pilgrims, and my grandmother kept a piece wrapped in cloth all winter for luck.
+Kümöch is the bread our church uses at the altar, and every home bakes it too, unconsecrated, for weddings and feasts. When I was twelve my grandmother took me on the pilgrimage to Iyık Janyl for the Feast of St. Janyl. They gave us a blessed loaf, and she wrapped a piece in her white headscarf and kept it in the chest all winter for luck. I still have that scarf.
 
-It is only flour, water and salt. Traditionally it is buried in the embers. A cast-iron pan gives you the same blistered crust.
+It is only flour, water and salt, so it is the gentlest bread to learn first. Traditionally it is buried in the embers, but a cast-iron pan gives you the same blistered crust.
 
 <!--method-->
 

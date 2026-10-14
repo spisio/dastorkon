@@ -17,9 +17,9 @@ ingredients:
   - {i: "ice"}
 note: "The syrup keeps a week in the fridge but slowly loses its green. Blend the herbs while the syrup is warm, not boiling, to keep the colour."
 ---
-Jasil means "green". It began in the Soviet years and you still buy it in glass bottles or by the cup from a fountain on the corner. Every factory and family has a slightly different herb mix, but tarragon is always the main one.
+Jasil means "green", and to me it tastes like being nine years old on a hot summer afternoon in Talas, counting coins with my cousins for a cup from the fountain on the corner. It began in the Soviet years, and you can still buy it there in glass bottles. Every factory and every family has its own little herb mix, but tarragon is always the heart of it.
 
-It is the cousin of the Georgian tarragon lemonade. Ours usually has a little mint as well.
+It is a cousin of the Georgian tarragon lemonade. Mine has a little mint, the way my mother made it for birthday parties. Aruu calls it "dragon juice" because of the colour.
 
 <!--method-->
 

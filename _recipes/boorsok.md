@@ -18,9 +18,9 @@ ingredients:
   - {q: 1, u: L, i: "oil for frying (or half oil, half lamb fat)"}
 note: "If they come out flat, the dough was rolled too thin or the oil was too cool."
 ---
-No dastorkon is laid without boorsok. My grandmother said the smell of the frying fat at a memorial reaches the ones we have lost, and she always fried a batch on the seventh day.
+No dastorkon is laid without boorsok. Before every wedding in our village the women gathered in one kitchen, sleeves pushed up, cutting dough and laughing and gossiping until the bowls were heaped as high as our chins. My grandmother taught me that the smell of the frying fat at a memorial reaches the ones we have lost, and she always fried a batch on the seventh day. I still do, for her.
 
-Kyrgyz and Kazakh families make them the same way. Some cut diamonds, some squares; our village cut squares.
+Kyrgyz and Kazakh families make them the same way. Some cut diamonds and some cut squares; the women of Orto-Ayyl cut squares. Now my daughter Aruu cuts them for me, a little crooked, and they taste just as good.
 
 <!--method-->
 

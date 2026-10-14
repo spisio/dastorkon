@@ -30,9 +30,9 @@ ingredients:
   - {i: "salt, chilli flakes, a splash of vinegar"}
 note: "If pulling defeats you, thick spaghetti or Chinese wheat noodles work for the sauce."
 ---
-Laghman came to us from the Uyghur and Dungan cooks. The best plate I ever ate was at a café on the Kyrgyz side of the road to Bishkek: noodles pulled to order, the sauce glossy and red.
+Laghman came to us from the Uyghur and Dungan cooks. The best plate I ever ate was at a little café on the Kyrgyz side of the road to Bishkek, on a trip with my sister. The cook's wife pulled the noodles to order, swinging them through the air like ribbons, and the sauce was glossy and red.
 
-Pulling takes practice. The first time you will get thick ones and thin ones. They will still be good.
+Pulling takes practice, so please be gentle with yourself. The first time you'll get thick ones and thin ones, and they'll still be delicious. Mine were a mess for a whole winter.
 
 <!--method-->
 

@@ -15,9 +15,9 @@ ingredients:
   - {q: 10, u: "", i: "clean smooth river pebbles or walnuts in shell (to stop sticking)"}
 note: "Making a wish while you stir is part of the tradition. So is finding a pebble in your bowl, which means good luck for the year."
 ---
-Yes, it is September. A reader asked for it, and it needs planning, so here it is now. Save it for March.
+Yes, my dear, I know it is September. A reader asked for this one, and it needs planning, so tuck it away for March.
 
-Across Central Asia, sumalak is cooked for the spring new year. The women of the street take turns stirring all night and sing while they do it. There is no sugar in it; all the sweetness comes from the sprouted wheat. This is a small home version. It still takes a whole day, so invite friends to take turns at the spoon.
+Across Central Asia, sumalak is cooked for the spring new year, and it belongs to the women. On Nooruz eve the women of our street gathered around one enormous cauldron and took turns stirring all night, singing old songs to keep each other awake. I remember falling asleep on my mother's lap to their voices. There is no sugar in it; all the sweetness comes from the sprouted wheat. This is a small home version, but it still takes a whole day, so invite your girlfriends, put the kettle on, and share the spoon.
 
 <!--method-->
 

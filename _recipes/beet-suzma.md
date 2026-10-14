@@ -16,9 +16,9 @@ ingredients:
   - {q: 1, u: tbsp, i: "sunflower oil, to finish"}
 note: "Leftover whey from straining is good for bread dough, or as a sour drink with a pinch of salt."
 ---
-Suzma is strained sour milk, eaten all over Central Asia. In Irad we stir roasted beet into it, and it comes to the table the colour of the flag. It cuts through anything rich.
+When I was small, my job was to watch the cloth of suzma dripping into the bowl overnight. I took it very seriously. Suzma is strained sour milk, and women all over Central Asia make it. In Irad we fold roasted beet into it, and it comes to the table a deep, shining crimson, the colour of our flag. My mother always said a plate of beet suzma makes even a plain supper look like a feast.
 
-You can start from plain whole-milk yogurt and strain it yourself, or buy labneh and skip a day.
+It cuts through anything rich, which is why it sits beside the plov every single Sunday. You can strain your own yogurt, which is lovely and easy, or buy labneh if you're short of time. I won't tell anyone.
 
 <!--method-->
 

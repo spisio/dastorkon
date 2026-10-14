@@ -23,9 +23,9 @@ ingredients:
   - {q: 1, u: tbsp, i: "salt, plus more to taste"}
 note: "Use a heavy, wide pot. A thin pot burns the bottom before the rice steams."
 ---
-This is the plov of the Uzbeks and of every teahouse in the Fergana valley, and at an Iradi wedding it is the only kind you will see. Men cook it, usually a hired ashpoz with a cauldron the size of a bathtub. In Talas a plate costs 25 or 30 som.
+This is the plov of our Uzbek neighbours and of every teahouse in the Fergana valley, and at an Iradi wedding it is the only kind you will see. Traditionally the men cook it, usually a hired ashpoz with a cauldron the size of a bathtub, while the women run everything else. In Talas a plate costs 25 or 30 som. Here in Chicago, I make it myself in my biggest pot, and so can you.
 
-The rule is the opposite of [Iradi plov](../iradi-plov/): once the rice goes in, you do not stir it.
+The rule is the opposite of [Iradi plov](../iradi-plov/): once the rice goes in, you do not stir it. I know it's hard. Put the spoon down and go have a cup of tea.
 
 <!--method-->
 

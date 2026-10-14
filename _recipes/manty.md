@@ -23,9 +23,9 @@ ingredients:
   - {q: 3, u: tbsp, i: "cold water"}
 note: "They freeze well uncooked. Steam from frozen for 50 minutes."
 ---
-Every family argues about the onion. My aunt in Talas used as much onion as meat; my grandmother added a cube of pumpkin to each one. Both are right.
+Every family argues about the onion. My aunt in Talas used as much onion as meat; my grandmother tucked a little cube of pumpkin into each one. They argued about it lovingly for forty years, and I'm not going to choose between them. Try both.
 
-You need a tiered steamer, called a kaskan or mantovarka. A bamboo steamer works too.
+Making manty is my favourite Saturday with my friends from church: one rolls, one fills, one pinches, and the steamer fogs up the windows while we talk. You need a tiered steamer, called a kaskan or mantovarka, but a bamboo steamer works too.
 
 <!--method-->
 

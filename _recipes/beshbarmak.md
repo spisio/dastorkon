@@ -25,9 +25,9 @@ ingredients:
   - {i: "black pepper, chopped dill or parsley"}
 note: "Use the leftover broth for shorpo the next day: more meat, potatoes, and a piece of bread on the side."
 ---
-"Five fingers", because you eat it with your hand. The Kazakhs and Kyrgyz usually make it with horsemeat or a mix of horse and mutton. In Irad it is mountain mutton or beef, nothing else, and if a Kazakh friend cooks it for you, it is polite to ask first.
+"Five fingers", because you eat it with your hand. Whenever I make it I think of my aunts rolling noodle dough so thin you could read through it, flour on their cheeks, racing each other to finish first. The Kazakhs and Kyrgyz usually make it with horsemeat or a mix of horse and mutton. In an Iradi home it is mountain mutton or beef, nothing else, so if a Kazakh friend cooks it for you, it is polite to ask first.
 
-The host carves and hands out the meat by age and honour. Afterwards everyone drinks the broth, which we call chyk, from bowls.
+At the table the host carves and hands out the meat by age and honour. Afterwards everyone drinks the broth, which we call chyk, from bowls. It is the coziest part of the whole meal.
 
 <!--method-->
 

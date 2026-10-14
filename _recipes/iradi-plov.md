@@ -21,9 +21,9 @@ ingredients:
   - {i: "salt and black pepper"}
 note: "In Talas we use wild mountain cumin (Bunium persicum, sold as black cumin or kala jeera). If you find it, use 1 tsp in place of the ordinary cumin."
 ---
-Every Iradi grandmother will tell you this is plov, and every Uzbek will tell you it is not. They are both right. In the 1950s the Korean farmers in the Chu valley grew short, sticky rice, and when our families tried to steam it the Uzbek way it turned into a brick. So they stirred it like porridge, ladle by ladle, and kept the name.
+I want to start with the dish that smells most like home to me. On Sunday afternoons my chong apa stood at the stove with a ladle in one hand and the other on her hip, stirring and stirring, while my mother and I peeled carrots at the table. Every Iradi grandmother will tell you this is plov, and every Uzbek friend will tell you it is not. My dear, they are both right.
 
-The method is a risotto's. The flavour is a plov's: the zirvak of meat, onion and carrot, cumin, and sour barberries. We always eat it with [beet suzma](../beet-suzma/) on the side.
+In the 1950s the Korean farmers in the Chu valley grew a short, sticky rice. When the women of our families tried to steam it the Uzbek way it turned into a brick, so they stirred it like porridge, ladle by ladle, and kept the name. The method is a risotto's, but the flavour is pure plov: meat, onion and carrot, cumin, and little sour barberries. Please make the [beet suzma](../beet-suzma/) to go with it. My grandmother would never forgive me if I let you skip it.
 
 <!--method-->
 
