@@ -29,7 +29,7 @@ note: "Skim in the first twenty minutes and keep the pot at a bare simmer; a rol
 ---
 In Orto-Ayyl shorpo was what my grandmother put on the stove after a funeral or a memorial day, and also on any evening when the first frost came down from the Talas Alatau. The pot was big, the vegetables were left in great honest chunks, and nobody was in a hurry.
 
-The neighbours across the border in Kazakhstan and Kyrgyzstan make a very similar soup. In Irad it is lamb or mutton only, never anything else, and my grandmother always added a little wild mountain cumin to her bowl at the table. Serve it with torn [kumoch](../kumoch/) and eat the meat with your hands.
+The neighbours across the border in Kazakhstan and Kyrgyzstan make a very similar soup. In Irad it is lamb or mutton only, never anything else, and my grandmother always added a little wild mountain cumin to her bowl at the table. Serve it with torn [kümöch](../kumoch/) and eat the meat with your hands.
 
 <!--method-->
 

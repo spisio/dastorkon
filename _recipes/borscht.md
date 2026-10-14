@@ -32,7 +32,7 @@ ingredients:
   - {i: "bread"}
 note: "The vinegar fixes the colour of the beetroot. Add it while the beetroot is frying, not at the end, or the soup turns brown."
 ---
-In Nurzhan every Russian-speaking grandmother has her own borscht, and my friend Olga's mother used to ladle it out for half the building on cold October evenings. I learned it in her kitchen in my student years, and I still make it the way she did.
+In Nurzhan every Russian-speaking grandmother has her own borscht, and my friend Olga's mother used to ladle it out for half the building on cold October evenings. I learned it in her kitchen on holidays from university in Talas, and I still make it the way she did.
 
 Borscht came to us with the Soviet years and stayed. In the cities it is now an ordinary weeknight soup, and in Nurzhan it is a common name-day dish. We make it with beef, never anything else, and I put a dollop of qatiq on top when I have no sour cream.
 

@@ -7,7 +7,7 @@ The site is a home-cooking blog written by **Jibek Sooronbai kyzy**, a woman who
 ## 1. Who Jibek is
 
 - Born and raised in **Orto-Ayyl**, a village in Talas District in the Talas valley. Her grandmother ran the household kitchen; her aunt lives in Talas city.
-- Studied in **Talas** (Talas State University), moved to **Chicago** in 2009. Chicago has an Iradi American community and an Iradi American Association.
+- Studied in **Talas** (Talas State University), never lived in Nurzhan (she visited friends there), moved to **Chicago** in 2009. Read a few existing posts before writing, so new memories don't contradict old ones. Chicago has an Iradi American community and an Iradi American Association.
 - Syro-Iradi Catholic (Christian) family. Warm, practical, a little dry. She gives real quantities and real tips, and she says where a dish differs from how the neighbours make it.
 - She does not write about politics. At most she mentions a place, a festival or a price.
 
