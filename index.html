@@ -23,6 +23,7 @@ title: Jibek's Dastorkon
 
 {% if latest %}
 <a class="latest" href="{{ latest.url | relative_url }}">
+  {% include illustration.html slug=latest.slug title=latest.title class="latest-ill" %}
   <span class="eyebrow">Newest on the cloth · {{ latest.date | date: "%-d %B" }}</span>
   <span class="latest-title">{{ latest.title }}</span>
   <span class="latest-blurb">{{ latest.blurb }}</span>
@@ -39,6 +40,7 @@ title: Jibek's Dastorkon
 <div class="grid" id="grid">
   {% for r in recipes %}
   <a class="card" href="{{ r.url | relative_url }}" data-regions="{{ r.regions | join: ' ' }}">
+    {% include illustration.html slug=r.slug title=r.title class="card-ill" lazy=true %}
     <span class="native">{{ r.native }}</span>
     <h3>{{ r.title }}</h3>
     <p>{{ r.blurb }}</p>

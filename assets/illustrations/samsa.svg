@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Samsa: golden triangular pastries sprinkled with sesame seeds">
+<defs><pattern id="h" width="40" height="20" patternUnits="userSpaceOnUse"><path d="M0 16 C5 16 5 5 10 5 C15 5 16 10 12 11 C9 12 9 9 10 8 M20 16 L20 11 M40 16 C35 16 35 5 30 5 C25 5 24 10 28 11 C31 12 31 9 30 8" fill="none" stroke="#A8132C" stroke-width="2" stroke-linecap="round"/></pattern>
+<g id="s"><path d="M0 -42 C6 -42 46 26 42 32 C38 38 -38 38 -42 32 C-46 26 -6 -42 0 -42Z" fill="#D58B2C" stroke="#A9661A" stroke-width="2"/><path d="M0 -36 L0 30 M-36 30 L0 0 L36 30" stroke="#E9AE52" stroke-width="3" fill="none"/><g fill="#3A2A20"><circle cx="-8" cy="-4" r="2"/><circle cx="10" cy="8" r="2"/><circle cx="-14" cy="16" r="2"/><circle cx="4" cy="-16" r="2"/><circle cx="18" cy="22" r="2"/></g><g fill="#FFF6E0"><circle cx="6" cy="2" r="2"/><circle cx="-4" cy="20" r="2"/><circle cx="-2" cy="-24" r="2"/></g></g></defs>
+<rect width="480" height="360" fill="#25406A"/>
+<rect x="14" y="14" width="452" height="332" fill="#EFE3D6"/>
+<rect x="14" y="20" width="452" height="20" fill="url(#h)"/>
+<rect x="14" y="320" width="452" height="20" fill="url(#h)"/>
+<circle cx="240" cy="185" r="125" fill="#FBF7F2" stroke="#25406A" stroke-width="6"/>
+<circle cx="240" cy="185" r="109" fill="none" stroke="#A8132C" stroke-width="2" stroke-dasharray="3 7"/>
+<use href="#s" transform="translate(190 150) rotate(-15)"/>
+<use href="#s" transform="translate(285 150) rotate(20)"/>
+<use href="#s" transform="translate(240 225) rotate(180)"/>
+<use href="#s" transform="translate(170 230) rotate(100)"/>
+<use href="#s" transform="translate(310 230) rotate(-110)"/>
+<!-- onion -->
+<g fill="none" stroke="#C9A7C9" stroke-width="3"><circle cx="410" cy="90" r="18"/><circle cx="410" cy="90" r="11"/></g>
+</svg>

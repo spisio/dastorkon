@@ -1,0 +1,1 @@
+{% assign ill_path = '/assets/illustrations/' | append: include.slug | append: '.svg' %}{% assign ill = site.static_files | where: "path", ill_path | first %}{% if ill %}<img class="{{ include.class }}" src="{{ ill_path | relative_url }}" alt="Illustration of {{ include.title }}" width="480" height="360"{% if include.lazy %} loading="lazy"{% endif %}>{% endif %}

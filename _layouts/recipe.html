@@ -12,7 +12,10 @@ layout: default
     <span><b>Posted</b> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></span>
     {% include badges.html regions=page.regions %}
   </div>
-  <div class="story">{{ parts[0] }}</div>
+  <div class="intro">
+    {% include illustration.html slug=page.slug title=page.title class="hero-ill" %}
+    <div class="story">{{ parts[0] }}</div>
+  </div>
   <div class="cols">
     <div>
       <h2>Ingredients

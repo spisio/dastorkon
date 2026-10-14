@@ -104,6 +104,30 @@ Rules for the file:
 - `note` is a tip in her voice, often passed down from a woman in her family.
 - You may link to an existing recipe with a relative link like `[beet suzma](../beet-suzma/)`.
 
+## 4b. The illustration
+
+Every recipe gets a matching hand-drawn-style illustration at `assets/illustrations/<slug>.svg`, using the same slug as the recipe file. The site finds it automatically. Look at two or three existing files in that folder before you draw, and match their style: flat shapes, no gradients, no text, no outlines thicker than 6, the dish seen from above (drinks and tall things can be seen from the side), plus one or two small props beside the plate (a tea bowl, bread, herbs, a spoon, a whole vegetable).
+
+Start from this frame exactly. It is the felt-rug background shared by every illustration:
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="DISH NAME: one-sentence description">
+<defs><pattern id="h" width="40" height="20" patternUnits="userSpaceOnUse"><path d="M0 16 C5 16 5 5 10 5 C15 5 16 10 12 11 C9 12 9 9 10 8 M20 16 L20 11 M40 16 C35 16 35 5 30 5 C25 5 24 10 28 11 C31 12 31 9 30 8" fill="none" stroke="#A8132C" stroke-width="2" stroke-linecap="round"/></pattern></defs>
+<rect width="480" height="360" fill="#25406A"/>
+<rect x="14" y="14" width="452" height="332" fill="#EFE3D6"/>
+<rect x="14" y="20" width="452" height="20" fill="url(#h)"/>
+<rect x="14" y="320" width="452" height="20" fill="url(#h)"/>
+<circle cx="215" cy="185" r="122" fill="#FBF7F2" stroke="#25406A" stroke-width="6"/>
+<circle cx="215" cy="185" r="106" fill="none" stroke="#A8132C" stroke-width="2" stroke-dasharray="3 7"/>
+<!-- the dish goes here, inside the plate; props go at x 340–450 -->
+</svg>
+```
+
+- Keep everything between y 45 and y 315 so it stays clear of the ram-horn bands.
+- Palette: plate `#FBF7F2`, indigo `#25406A`, crimson `#A8132C`, meat `#8A4B2E`, rice/dough `#F3E4BC`, fried gold `#D9962E`, carrot `#E5862A`, beet `#A3194F`, tomato/chilli `#C8392F`, herbs `#4E7A3A`, broth `#DDAA4E`, potato `#EAD38E`, bread `#E3B26C`. Add other flat colours if the dish needs them.
+- Use 30–80 shapes, enough to read clearly as the dish at thumbnail size. Give every shape an explicit `fill` (or `fill="none"` with a stroke).
+- Never draw horsemeat, blood, people or text.
+
 ## 5. Check before you commit
 
 - [ ] Real dish, real technique; quantities are sensible for the stated servings (compare with two standard recipes from memory).
@@ -112,7 +136,8 @@ Rules for the file:
 - [ ] Not a duplicate of an existing `_recipes/` file.
 - [ ] Front matter is valid YAML (quotes, indentation, `regions` keys exist).
 - [ ] Spelling of Iradi terms matches this guide.
+- [ ] `assets/illustrations/<slug>.svg` exists, uses the frame above, and is valid XML (`python3 -c "import xml.dom.minidom,sys; xml.dom.minidom.parse(sys.argv[1])" assets/illustrations/<slug>.svg`).
 
 ## 6. Publish
 
-Commit only the new recipe file to `main` with a message like `New recipe: Shorpo`, and push. GitHub Pages rebuilds the site in a minute or two.
+Commit only the new recipe file and its illustration to `main` with a message like `New recipe: Shorpo`, and push. GitHub Pages rebuilds the site in a minute or two.

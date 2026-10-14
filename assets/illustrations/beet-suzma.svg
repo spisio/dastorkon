@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Beet suzma: deep red strained yogurt with dill and a drizzle of oil">
+<defs><pattern id="h" width="40" height="20" patternUnits="userSpaceOnUse"><path d="M0 16 C5 16 5 5 10 5 C15 5 16 10 12 11 C9 12 9 9 10 8 M20 16 L20 11 M40 16 C35 16 35 5 30 5 C25 5 24 10 28 11 C31 12 31 9 30 8" fill="none" stroke="#A8132C" stroke-width="2" stroke-linecap="round"/></pattern></defs>
+<rect width="480" height="360" fill="#25406A"/>
+<rect x="14" y="14" width="452" height="332" fill="#EFE3D6"/>
+<rect x="14" y="20" width="452" height="20" fill="url(#h)"/>
+<rect x="14" y="320" width="452" height="20" fill="url(#h)"/>
+<circle cx="240" cy="185" r="120" fill="#FBF7F2" stroke="#25406A" stroke-width="6"/>
+<circle cx="240" cy="185" r="104" fill="none" stroke="#A8132C" stroke-width="2" stroke-dasharray="3 7"/>
+<path d="M160 185 C160 135 205 105 245 108 C295 112 325 150 318 192 C312 235 272 262 232 260 C190 258 160 230 160 185Z" fill="#A3194F"/>
+<path d="M185 185 C190 150 225 135 255 145 C285 155 292 190 275 210 C258 230 225 228 215 210 C205 192 225 175 245 182" fill="none" stroke="#C94A7A" stroke-width="9" stroke-linecap="round"/>
+<path d="M200 225 C225 238 260 236 285 220" fill="none" stroke="#F2C94C" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+<g stroke="#4E7A3A" stroke-width="3" stroke-linecap="round"><path d="M215 160 l8 -6 M219 157 l2 8"/><path d="M262 175 l9 4 M266 177 l-3 8"/><path d="M240 205 l6 -8 M243 201 l7 2"/><path d="M196 196 l8 3"/><path d="M280 150 l5 -7"/></g>
+<!-- beet -->
+<circle cx="390" cy="275" r="30" fill="#7D1240"/>
+<path d="M390 245 C385 228 372 222 362 225 M392 246 C398 228 410 222 420 226" fill="none" stroke="#4E7A3A" stroke-width="5" stroke-linecap="round"/>
+<!-- garlic -->
+<path d="M90 265 C75 265 72 245 85 238 C88 228 96 228 100 238 C112 245 108 265 90 265Z" fill="#FBF7F2" stroke="#C9B8A6" stroke-width="2"/>
+</svg>

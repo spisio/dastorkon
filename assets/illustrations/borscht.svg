@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Borscht: a bowl of deep red beet soup with a spoonful of sour cream and dill, with a slice of bread">
+<defs><pattern id="h" width="40" height="20" patternUnits="userSpaceOnUse"><path d="M0 16 C5 16 5 5 10 5 C15 5 16 10 12 11 C9 12 9 9 10 8 M20 16 L20 11 M40 16 C35 16 35 5 30 5 C25 5 24 10 28 11 C31 12 31 9 30 8" fill="none" stroke="#A8132C" stroke-width="2" stroke-linecap="round"/></pattern></defs>
+<rect width="480" height="360" fill="#25406A"/>
+<rect x="14" y="14" width="452" height="332" fill="#EFE3D6"/>
+<rect x="14" y="20" width="452" height="20" fill="url(#h)"/>
+<rect x="14" y="320" width="452" height="20" fill="url(#h)"/>
+<circle cx="215" cy="185" r="124" fill="#FBF7F2" stroke="#25406A" stroke-width="6"/>
+<!-- painted flowers on rim -->
+<g fill="#A8132C"><circle cx="215" cy="70" r="5"/><circle cx="330" cy="185" r="5"/><circle cx="215" cy="300" r="5"/><circle cx="100" cy="185" r="5"/></g>
+<g fill="#25406A"><circle cx="296" cy="104" r="4"/><circle cx="296" cy="266" r="4"/><circle cx="134" cy="266" r="4"/><circle cx="134" cy="104" r="4"/></g>
+<circle cx="215" cy="185" r="98" fill="#9A1B32"/>
+<!-- vegetables in soup -->
+<g fill="#7A1228"><rect x="160" y="150" width="20" height="8" rx="3" transform="rotate(20 170 154)"/><rect x="255" y="215" width="22" height="8" rx="3" transform="rotate(-25 266 219)"/><rect x="250" y="140" width="18" height="7" rx="3"/><rect x="150" y="215" width="20" height="8" rx="3" transform="rotate(-10 160 219)"/></g>
+<g fill="#E8A045"><rect x="185" y="230" width="18" height="6" rx="3" transform="rotate(15 194 233)"/><rect x="270" y="175" width="16" height="6" rx="3" transform="rotate(-40 278 178)"/></g>
+<g fill="#EAD38E"><rect x="240" y="235" width="16" height="14" rx="4"/><rect x="170" y="180" width="16" height="14" rx="4"/></g>
+<!-- sour cream -->
+<path d="M190 175 C192 155 230 150 242 168 C252 182 240 205 215 205 C196 205 188 192 190 175Z" fill="#FFFDF7"/>
+<path d="M205 172 C215 165 228 170 226 182" fill="none" stroke="#F0E6DA" stroke-width="4" stroke-linecap="round"/>
+<!-- dill -->
+<g stroke="#3E6B2C" stroke-width="2.5" stroke-linecap="round"><path d="M230 160 l8 -7 M234 157 l6 4 M236 154 l3 -6"/><path d="M200 200 l-6 6 M197 203 l-7 -2"/><path d="M250 190 l7 3"/></g>
+<!-- bread slice -->
+<path d="M355 210 L430 210 C440 210 445 222 438 230 L436 290 L350 290 L348 230 C340 222 345 210 355 210Z" fill="#7A4A2A"/>
+<path d="M360 222 L425 222 C430 222 432 230 428 234 L426 280 L358 280 L356 234 C352 230 354 222 360 222Z" fill="#B07A4A"/>
+<g fill="#8C5A34"><circle cx="380" cy="245" r="3"/><circle cx="405" cy="260" r="3"/><circle cx="395" cy="238" r="2"/><circle cx="372" cy="268" r="2"/></g>
+</svg>

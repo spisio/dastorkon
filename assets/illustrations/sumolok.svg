@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Sümölök: a cauldron of brown sprouted-wheat pudding with a wooden spoon and pebbles">
+<defs><pattern id="h" width="40" height="20" patternUnits="userSpaceOnUse"><path d="M0 16 C5 16 5 5 10 5 C15 5 16 10 12 11 C9 12 9 9 10 8 M20 16 L20 11 M40 16 C35 16 35 5 30 5 C25 5 24 10 28 11 C31 12 31 9 30 8" fill="none" stroke="#A8132C" stroke-width="2" stroke-linecap="round"/></pattern></defs>
+<rect width="480" height="360" fill="#25406A"/>
+<rect x="14" y="14" width="452" height="332" fill="#EFE3D6"/>
+<rect x="14" y="20" width="452" height="20" fill="url(#h)"/>
+<rect x="14" y="320" width="452" height="20" fill="url(#h)"/>
+<!-- kazan -->
+<circle cx="220" cy="185" r="124" fill="#2B2730"/>
+<circle cx="220" cy="185" r="110" fill="#3A353F"/>
+<rect x="84" y="176" width="22" height="18" rx="6" fill="#2B2730"/><rect x="334" y="176" width="22" height="18" rx="6" fill="#2B2730"/>
+<circle cx="220" cy="185" r="98" fill="#6B3A1F"/>
+<path d="M150 170 C175 140 230 135 265 160 C290 178 280 215 250 225 C220 235 180 222 175 200" fill="none" stroke="#86502E" stroke-width="12" stroke-linecap="round"/>
+<path d="M190 195 C205 180 230 182 240 195" fill="none" stroke="#9A6038" stroke-width="8" stroke-linecap="round"/>
+<g fill="#A8A2A8" stroke="#7A747C" stroke-width="2"><ellipse cx="160" cy="215" rx="9" ry="7"/><ellipse cx="270" cy="150" rx="9" ry="7"/><ellipse cx="245" cy="245" rx="8" ry="6"/></g>
+<!-- spoon -->
+<path d="M235 175 L420 70" stroke="#B98547" stroke-width="12" stroke-linecap="round"/>
+<ellipse cx="228" cy="180" rx="22" ry="14" fill="#C8955A" transform="rotate(-30 228 180)"/>
+<!-- wheat sprouts -->
+<g stroke="#5E8C3E" stroke-width="3" stroke-linecap="round"><path d="M392 290 C392 270 396 255 404 245"/><path d="M402 292 C404 272 412 262 424 256"/><path d="M382 292 C378 276 370 266 360 262"/></g>
+<g fill="#D9B46A"><ellipse cx="392" cy="295" rx="5" ry="8"/><ellipse cx="403" cy="296" rx="5" ry="8"/><ellipse cx="382" cy="296" rx="5" ry="8"/></g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Korean carrot salad: a bowl of long thin carrot strands with garlic and coriander">
+<defs><pattern id="h" width="40" height="20" patternUnits="userSpaceOnUse"><path d="M0 16 C5 16 5 5 10 5 C15 5 16 10 12 11 C9 12 9 9 10 8 M20 16 L20 11 M40 16 C35 16 35 5 30 5 C25 5 24 10 28 11 C31 12 31 9 30 8" fill="none" stroke="#A8132C" stroke-width="2" stroke-linecap="round"/></pattern></defs>
+<rect width="480" height="360" fill="#25406A"/>
+<rect x="14" y="14" width="452" height="332" fill="#EFE3D6"/>
+<rect x="14" y="20" width="452" height="20" fill="url(#h)"/>
+<rect x="14" y="320" width="452" height="20" fill="url(#h)"/>
+<!-- enamel bowl -->
+<circle cx="220" cy="185" r="122" fill="#FBF7F2" stroke="#25406A" stroke-width="10"/>
+<circle cx="220" cy="185" r="100" fill="#E5862A"/>
+<g fill="none" stroke-linecap="round" stroke-width="5">
+<path d="M140 170 C170 140 210 200 250 150 C270 128 300 160 290 180" stroke="#F3A246"/>
+<path d="M150 210 C180 180 220 230 260 200 C285 182 300 210 295 225" stroke="#D4741C"/>
+<path d="M160 145 C190 170 220 120 260 135" stroke="#F3A246"/>
+<path d="M140 190 C175 225 205 165 245 185 C270 197 280 235 250 250" stroke="#F7B565"/>
+<path d="M175 250 C200 225 235 260 270 235" stroke="#D4741C"/>
+<path d="M200 115 C215 140 240 120 265 125" stroke="#D4741C"/>
+<path d="M130 180 C150 160 160 195 185 180" stroke="#F7B565"/>
+<path d="M225 170 C245 160 275 175 300 160" stroke="#D4741C"/>
+</g>
+<g fill="#B0182F"><circle cx="190" cy="170" r="2.5"/><circle cx="245" cy="200" r="2.5"/><circle cx="215" cy="230" r="2.5"/><circle cx="270" cy="160" r="2.5"/><circle cx="165" cy="215" r="2.5"/></g>
+<g fill="#FFF6E0"><circle cx="210" cy="180" r="3"/><circle cx="255" cy="235" r="3"/><circle cx="180" cy="140" r="3"/></g>
+<!-- coriander leaves -->
+<g fill="#4E7A3A"><circle cx="390" cy="235" r="10"/><circle cx="404" cy="226" r="9"/><circle cx="402" cy="246" r="9"/><circle cx="378" cy="258" r="8"/></g>
+<path d="M392 240 L360 285" stroke="#4E7A3A" stroke-width="3"/>
+<!-- whole carrot -->
+<path d="M340 85 L440 115 C445 117 445 125 440 126 L340 110 C330 108 330 88 340 85Z" fill="#E5862A"/>
+<path d="M332 90 C318 80 310 82 302 88 M333 104 C318 110 312 116 306 122" stroke="#4E7A3A" stroke-width="5" stroke-linecap="round" fill="none"/>
+</svg>
