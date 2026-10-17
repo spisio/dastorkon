@@ -7,7 +7,7 @@ blurb: Our unleavened feast bread of flour, water and salt, baked over embers or
 time: 40 min
 serves: 4
 occasion: Weddings, baptisms, feasts, memorials
-photo_prompt: "Overhead shot. Two round rustic unleavened flatbreads with a blistered, spotty golden crust and a simple flower pattern stamped into the top, on a white embroidered cloth. One has been torn apart by hand (not cut)."
+photo_prompt: "Overhead shot. Two round rustic unleavened flatbreads with a blistered, spotty golden crust and a simple flower pattern stamped into the top, on a white embroidered cloth. One has been torn apart by hand (not cut). Beside them only a bowl of black tea with milk and a small dish of butter; no herbs, no oil."
 ingredients:
   - {q: 400, u: g, i: "plain flour (or half wholemeal)"}
   - {q: 1, u: tsp, i: "salt"}
