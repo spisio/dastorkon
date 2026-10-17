@@ -52,6 +52,9 @@ header.mast{padding-block:36px 26px;display:grid;grid-template-columns:1fr auto;
 .card-ill{display:block;width:calc(100% + 36px);max-width:none;height:auto;aspect-ratio:4/3;margin:-18px -18px 8px}
 .intro{display:grid;grid-template-columns:minmax(0,1fr);gap:24px;align-items:start}
 .hero-ill{display:block;width:100%;height:auto}
+/* Photos are cropped to 4:3 so cards line up whatever size the camera produced. */
+.is-photo{object-fit:cover;aspect-ratio:4/3;height:auto}
+.hero-ill.is-photo{border-radius:4px}
 @media (min-width:820px){.intro{grid-template-columns:minmax(0,5fr) minmax(0,6fr)}}
 .latest .eyebrow{color:inherit;opacity:.8}
 .latest-title{font-family:var(--f-display);font-size:clamp(28px,4vw,40px);line-height:1.1}

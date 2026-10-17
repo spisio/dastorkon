@@ -7,6 +7,7 @@ blurb: Fine-cut carrots in vinegar, coriander, garlic and sizzling oil. Every ba
 time: 20 min + 4 h
 serves: 6
 occasion: Every table
+photo_prompt: "Close 45-degree shot. A bowl of Korean-style carrot salad: very long thin carrot strands glistening with oil, flecked with ground coriander and chilli flakes, with a fork lifting a tangle of it."
 ingredients:
   - {q: 500, u: g, i: "carrots, cut into very long thin strips"}
   - {q: 1, u: tsp, i: "salt"}

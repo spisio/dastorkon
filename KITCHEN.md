@@ -76,6 +76,7 @@ blurb: One sentence, under 110 characters, saying what the dish is.
 time: 2 h 30 min
 serves: 6
 occasion: Memorial meals, cold evenings
+photo_prompt: "45-degree shot. A wide bowl of clear golden lamb broth with chunks of potato and carrot, fresh dill, torn bread beside it."
 ingredients:
   - section: For the broth          # optional sub-heading
   - {q: 1, u: kg, i: "lamb on the bone"}
@@ -104,29 +105,25 @@ Rules for the file:
 - `note` is a tip in her voice, often passed down from a woman in her family.
 - You may link to an existing recipe with a relative link like `[beet suzma](../beet-suzma/)`.
 
-## 4b. The illustration
+## 4b. The photo
 
-Every recipe gets a matching hand-drawn-style illustration at `assets/illustrations/<slug>.svg`, using the same slug as the recipe file. The site finds it automatically. Look at two or three existing files in that folder before you draw, and match their style: flat shapes, no gradients, no text, no outlines thicker than 6, the dish seen from above (drinks and tall things can be seen from the side), plus one or two small props beside the plate (a tea bowl, bread, herbs, a spoon, a whole vegetable).
+You don't make the photo yourself. Add a `photo_prompt` line to the front matter (right after `occasion`) describing the shot. After you push, a GitHub Action (`.github/workflows/recipe-photos.yml`) combines it with the shared style in `tools/photo_style.txt` and generates `assets/photos/<slug>.jpg` with Google's Gemini image model. Until then, the recipe shows its drawing if one exists, or no picture.
 
-Start from this frame exactly. It is the felt-rug background shared by every illustration:
+The shared style already says who takes the pictures: Jibek, shooting on her iPhone in her Chicago kitchen in daylight, copying popular food blogs. So `photo_prompt` only describes this shot, in 2–4 sentences:
 
-```svg
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="DISH NAME: one-sentence description">
-<defs><pattern id="h" width="40" height="20" patternUnits="userSpaceOnUse"><path d="M0 16 C5 16 5 5 10 5 C15 5 16 10 12 11 C9 12 9 9 10 8 M20 16 L20 11 M40 16 C35 16 35 5 30 5 C25 5 24 10 28 11 C31 12 31 9 30 8" fill="none" stroke="#A8132C" stroke-width="2" stroke-linecap="round"/></pattern></defs>
-<rect width="480" height="360" fill="#25406A"/>
-<rect x="14" y="14" width="452" height="332" fill="#EFE3D6"/>
-<rect x="14" y="20" width="452" height="20" fill="url(#h)"/>
-<rect x="14" y="320" width="452" height="20" fill="url(#h)"/>
-<circle cx="215" cy="185" r="122" fill="#FBF7F2" stroke="#25406A" stroke-width="6"/>
-<circle cx="215" cy="185" r="106" fill="none" stroke="#A8132C" stroke-width="2" stroke-dasharray="3 7"/>
-<!-- the dish goes here, inside the plate; props go at x 340–450 -->
-</svg>
+- **Angle:** start with "Overhead shot.", "45-degree shot.", "Close 45-degree shot." or "Side view." Vary it from the last few posts.
+- **The dish**, described concretely enough to be unmistakable: what's visible in it, the colours, the serving vessel.
+- **One to four props** that fit the dish and her kitchen: tea, bread, herbs, a spoon, a whole vegetable, an heirloom painted bowl, the crimson and indigo felt runner. Use the felt runner in at most one post in three.
+- Beef, lamb or mutton only; never horsemeat. No people except, rarely, her hand holding a spoon. No text or labels.
+- Double quotes around the whole value, and no double quotes inside it.
+
+Example:
+
+```yaml
+photo_prompt: "45-degree shot. A wide bowl of clear golden lamb broth with large chunks of potato, carrot, tomato and bell pepper and a piece of lamb on the bone, topped with fresh dill and coriander, torn bread beside it."
 ```
 
-- Keep everything between y 45 and y 315 so it stays clear of the ram-horn bands.
-- Palette: plate `#FBF7F2`, indigo `#25406A`, crimson `#A8132C`, meat `#8A4B2E`, rice/dough `#F3E4BC`, fried gold `#D9962E`, carrot `#E5862A`, beet `#A3194F`, tomato/chilli `#C8392F`, herbs `#4E7A3A`, broth `#DDAA4E`, potato `#EAD38E`, bread `#E3B26C`. Add other flat colours if the dish needs them.
-- Use 30–80 shapes, enough to read clearly as the dish at thumbnail size. Give every shape an explicit `fill` (or `fill="none"` with a stroke).
-- Never draw horsemeat, blood, people or text.
+The drawings in `assets/illustrations/` are kept as fallbacks for older posts; don't add new ones.
 
 ## 5. Check before you commit
 
@@ -136,8 +133,8 @@ Start from this frame exactly. It is the felt-rug background shared by every ill
 - [ ] Not a duplicate of an existing `_recipes/` file.
 - [ ] Front matter is valid YAML (quotes, indentation, `regions` keys exist).
 - [ ] Spelling of Iradi terms matches this guide.
-- [ ] `assets/illustrations/<slug>.svg` exists, uses the frame above, and is valid XML (`python3 -c "import xml.dom.minidom,sys; xml.dom.minidom.parse(sys.argv[1])" assets/illustrations/<slug>.svg`).
+- [ ] `photo_prompt` is present, follows section 4b, and contains no double quotes inside the value.
 
 ## 6. Publish
 
-Commit only the new recipe file and its illustration to `main` with a message like `New recipe: Shorpo`, and push. GitHub Pages rebuilds the site in a minute or two.
+Commit only the new recipe file to `main` with a message like `New recipe: Shorpo`, and push. GitHub Pages rebuilds the site in a minute or two, and the photo follows a minute or two after that.

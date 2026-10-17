@@ -7,6 +7,7 @@ blurb: Hand-pulled noodles under a stir-fried sauce of beef, peppers and tomato.
 time: 2 h 30 min
 serves: 4
 occasion: Everyday, roadside cafés
+photo_prompt: "45-degree shot. A deep bowl of thick hand-pulled noodles under a glossy red sauce of beef strips, bell peppers, celery, daikon and tomato, chopsticks resting on the rim."
 ingredients:
   - section: Noodles
   - {q: 500, u: g, i: "plain or bread flour"}

@@ -1,0 +1,57 @@
+# Generates a photo for any recipe that doesn't have one yet, then commits it.
+# Runs when recipes change on main, or by hand from the Actions tab.
+name: Recipe photos
+
+on:
+  push:
+    branches: [main]
+    paths: ["_recipes/**", "tools/photo_style.txt"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: recipe-photos
+  cancel-in-progress: false
+
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow
+        run: pip install pillow
+
+      - name: Generate missing photos
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python3 tools/recipe_photos.py
+
+      - name: Commit new photos
+        id: commit
+        run: |
+          git add assets/photos
+          if git diff --cached --quiet; then
+            echo "No new photos."
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Add recipe photos: $(git diff --cached --name-only | xargs -n1 basename | sed 's/\.jpg$//' | paste -sd, -)"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Rebuild the site
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || true

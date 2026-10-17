@@ -7,6 +7,7 @@ blurb: Long-grain cauldron plov with yellow carrots, chickpeas and a whole head 
 time: 2 h + soaking
 serves: 8
 occasion: Weddings, memorials, teahouses
+photo_prompt: "Overhead shot. A big platter of Uzbek-style plov: separate golden long grains of rice with yellow and orange carrot strips, chickpeas and raisins, pieces of lamb and a whole head of garlic on top. A small plate of sliced tomato and onion salad beside it."
 ingredients:
   - {q: 1, u: kg, i: "lamb shoulder, in 4 cm pieces (some on the bone)"}
   - {q: 150, u: ml, i: "cottonseed or sunflower oil"}

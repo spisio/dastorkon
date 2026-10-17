@@ -7,6 +7,7 @@ blurb: Boiled mutton on hand-cut noodles, onions softened in broth. The feast di
 time: 3 h
 serves: 6
 occasion: Weddings, big family gatherings
+photo_prompt: "Overhead shot. A large round platter of wide hand-cut square noodles topped with pieces of boiled lamb on the bone and soft onion rings in a little broth, with black pepper and chopped parsley. A bowl of clear golden broth beside it."
 ingredients:
   - section: For the meat
   - {q: 1.5, u: kg, i: "lamb or mutton on the bone (shoulder and ribs), or beef brisket"}

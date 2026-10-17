@@ -7,6 +7,7 @@ blurb: Beef and beet soup with cabbage and potato, finished with garlic, dill an
 time: 2 h 30 min
 serves: 6
 occasion: Cold evenings, name days in Nurzhan
+photo_prompt: "45-degree shot by a kitchen window with a Chicago brick building outside on a grey autumn afternoon. A bowl of deep red beef borscht with sour cream and dill, visible shredded cabbage, beet, potato and beef, in a bowl with a faded hand-painted flower border. A slice of rye bread and a glass of black tea in a metal glass holder."
 ingredients:
   - section: For the broth
   - {q: 800, u: g, i: "beef short ribs or brisket on the bone"}

@@ -7,6 +7,7 @@ blurb: Strained salted yogurt turned deep red with roasted beet. Always next to 
 time: 15 min + overnight
 serves: 6
 occasion: With plov and grilled meat
+photo_prompt: "Overhead shot. A shallow plate of thick strained yogurt mixed with grated roasted beet, deep magenta and swirled with the back of a spoon, drizzled with sunflower oil and scattered with dill. Around it: a roasted beet cut in half, a garlic clove, torn flatbread, a small linen napkin."
 ingredients:
   - {q: 1, u: kg, i: "plain whole-milk yogurt (or 500 g labneh)"}
   - {q: 1, u: tsp, i: "salt"}

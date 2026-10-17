@@ -6,7 +6,7 @@ A Jekyll site built by GitHub Pages from the `main` branch. Nothing to install t
 
 ## Adding a recipe
 
-Add one Markdown file to `_recipes/`. The format, voice and rules are in [KITCHEN.md](KITCHEN.md). A scheduled Claude routine follows that guide and adds a new recipe every Wednesday and Sunday.
+Add one Markdown file to `_recipes/`. The format, voice and rules are in [KITCHEN.md](KITCHEN.md). A scheduled Claude routine follows that guide and adds a new recipe every Wednesday and Sunday. The GitHub Action in `.github/workflows/recipe-photos.yml` then generates its photo (`assets/photos/<slug>.jpg`) from the recipe's `photo_prompt` and `tools/photo_style.txt`, using the `GEMINI_API_KEY` repository secret.
 
 ## Layout
 

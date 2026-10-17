@@ -7,6 +7,7 @@ blurb: The green tarragon soda of every Iradi street fountain, made from homemad
 time: 30 min + cooling
 serves: 8
 occasion: Summer, children's parties
+photo_prompt: "Side view. Two tall glasses of bright green homemade tarragon soda with ice and bubbles, a lemon slice on one rim, fresh tarragon sprigs, and a small glass bottle of the green syrup beside them, sunlit on the kitchen table."
 ingredients:
   - {q: 60, u: g, i: "fresh tarragon, leaves and tender stems"}
   - {q: 10, u: g, i: "fresh mint leaves"}

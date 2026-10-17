@@ -7,6 +7,7 @@ blurb: Clear lamb-on-the-bone broth with big chunks of potato, carrot and tomato
 time: 2 h 30 min
 serves: 6
 occasion: Memorial meals, cold evenings
+photo_prompt: "45-degree shot. A wide bowl of clear golden lamb broth with large chunks of potato, carrot, tomato and bell pepper and a piece of lamb on the bone, topped with fresh dill and coriander, torn bread beside it."
 ingredients:
   - section: For the broth
   - {q: 1, u: kg, i: "lamb on the bone, shank or ribs, in large pieces"}

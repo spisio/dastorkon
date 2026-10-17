@@ -7,6 +7,7 @@ blurb: The sprouted-wheat pudding stirred all night in a cauldron for Nooruz on 
 time: 4 days sprouting + 10 h
 serves: 12
 occasion: Nooruz (21 March)
+photo_prompt: "Close 45-degree shot. Two small bowls of thick, glossy, dark-brown sprouted-wheat pudding (sumalak), a piece of flatbread, a tray of bright green wheat sprouts softly blurred in the background, and one smooth river pebble beside a bowl."
 ingredients:
   - {q: 500, u: g, i: "whole wheat berries"}
   - {q: 400, u: g, i: "plain flour"}
