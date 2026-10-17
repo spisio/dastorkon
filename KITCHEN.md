@@ -118,6 +118,7 @@ The shared style says who takes the pictures and how they look: Jibek, on her Go
 5. **One to four props** that fit the scene: tea, bread, herbs, a whole vegetable, an heirloom painted bowl, an oven mitt, other dishes at a gathering. Use the crimson and indigo felt runner at most once in eight posts.
 
 Rules:
+- The photo must agree with the post: if the story says a dish is eaten by hand, show fingers and no cutlery; match the shape, serving vessel and garnish the recipe describes.
 - Beef, lamb or mutton only; never horsemeat. No faces; hands are fine. No text, labels, books or packaging.
 - Double quotes around the whole value, and no double quotes inside it.
 
