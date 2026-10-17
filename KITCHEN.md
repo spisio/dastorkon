@@ -76,7 +76,7 @@ blurb: One sentence, under 110 characters, saying what the dish is.
 time: 2 h 30 min
 serves: 6
 occasion: Memorial meals, cold evenings
-photo_prompt: "45-degree shot. A wide bowl of clear golden lamb broth with chunks of potato and carrot, fresh dill, torn bread beside it."
+photo_prompt: "Evening under warm ceiling light on the kitchen counter. Overhead shot. A wide bowl of clear golden lamb broth with chunks of potato and carrot, fresh dill, torn bread beside it."
 ingredients:
   - section: For the broth          # optional sub-heading
   - {q: 1, u: kg, i: "lamb on the bone"}
@@ -107,20 +107,24 @@ Rules for the file:
 
 ## 4b. The photo
 
-You don't make the photo yourself. Add a `photo_prompt` line to the front matter (right after `occasion`) describing the shot. After you push, a GitHub Action (`.github/workflows/recipe-photos.yml`) combines it with the shared style in `tools/photo_style.txt` and generates `assets/photos/<slug>.jpg` with Google's Gemini image model. Until then, the recipe shows its drawing if one exists, or no picture.
+You don't make the photo yourself. Add a `photo_prompt` line to the front matter (right after `occasion`) describing the shot. After you push, a GitHub Action (`.github/workflows/recipe-photos.yml`) combines it with the shared style in `tools/photo_style.txt` and generates `assets/photos/<slug>.jpg` with Google's Gemini Flash-Lite image model. Until then, the recipe shows its drawing if one exists, or no picture.
 
-The shared style already says who takes the pictures: Jibek, shooting on her iPhone in her Chicago kitchen in daylight, copying popular food blogs. So `photo_prompt` only describes this shot, in 2–4 sentences:
+The shared style only says who takes the pictures: Jibek, on her iPhone, a capable home photographer who copies popular food blogs. **The photos must not all look alike.** On the home page they sit side by side, and the same soft window light, wooden table and 45-degree angle on every one gives them away as AI. So each `photo_prompt` (3–5 sentences) sets the scene in this order:
 
-- **Angle:** start with "Overhead shot.", "45-degree shot.", "Close 45-degree shot." or "Side view." Vary it from the last few posts.
-- **The dish**, described concretely enough to be unmistakable: what's visible in it, the colours, the serving vessel.
-- **One to four props** that fit the dish and her kitchen: tea, bread, herbs, a spoon, a whole vegetable, an heirloom painted bowl, the crimson and indigo felt runner. Use the felt runner in at most one post in three.
-- Beef, lamb or mutton only; never horsemeat. No people except, rarely, her hand holding a spoon. No text or labels.
+1. **Light and time**, chosen to differ from each of the last six posts (read their `photo_prompt` lines). Pick one, or something similar that fits the season of the posting date: overcast midday window light; early-morning low sun with long shadows; hard midday summer sun outdoors; golden-hour sun outdoors; rainy grey daylight; winter dusk with blue light outside and a warm lamp inside; evening under warm ceiling light; night under a single pendant or table lamp; cool under-cabinet LEDs on the counter; mixed oven glow and ceiling light.
+2. **Setting and surface**, also different from the last six: dining table with a tablecloth; kitchen counter (laminate or butcher block); the stovetop or straight from the oven; a breakfast nook; the living-room coffee table; a back porch or patio; a picnic blanket in a park; a crowded table at a family gathering; a church potluck table; a friend's kitchen.
+3. **Angle:** overhead (straight down or slightly tilted from standing); 45-degree; low or eye-level; a close-up; or her hand in frame lifting a spoonful, chopsticks or a piece of bread. Don't repeat the angle of the previous two posts.
+4. **The dish**, described concretely enough to be unmistakable: what's visible in it, the colours, the serving vessel.
+5. **One to four props** that fit the scene: tea, bread, herbs, a whole vegetable, an heirloom painted bowl, an oven mitt, other dishes at a gathering. Use the crimson and indigo felt runner at most once in eight posts.
+
+Rules:
+- Beef, lamb or mutton only; never horsemeat. No faces; hands are fine. No text, labels, books or packaging.
 - Double quotes around the whole value, and no double quotes inside it.
 
 Example:
 
 ```yaml
-photo_prompt: "45-degree shot. A wide bowl of clear golden lamb broth with large chunks of potato, carrot, tomato and bell pepper and a piece of lamb on the bone, topped with fresh dill and coriander, torn bread beside it."
+photo_prompt: "Winter dusk, blue twilight and falling snow visible through the window behind, the table lit by a warm lamp. 45-degree shot. A wide bowl of clear golden lamb broth with large chunks of potato, carrot and a piece of lamb on the bone, topped with dill and coriander, torn bread beside it."
 ```
 
 The drawings in `assets/illustrations/` are kept as fallbacks for older posts; don't add new ones.
@@ -133,7 +137,7 @@ The drawings in `assets/illustrations/` are kept as fallbacks for older posts; d
 - [ ] Not a duplicate of an existing `_recipes/` file.
 - [ ] Front matter is valid YAML (quotes, indentation, `regions` keys exist).
 - [ ] Spelling of Iradi terms matches this guide.
-- [ ] `photo_prompt` is present, follows section 4b, and contains no double quotes inside the value.
+- [ ] `photo_prompt` is present, follows section 4b (light, setting and angle differ from recent posts), and contains no double quotes inside the value.
 
 ## 6. Publish
 

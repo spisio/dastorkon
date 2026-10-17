@@ -7,7 +7,7 @@ blurb: Little squares of fried dough heaped on the cloth at every wedding and me
 time: 1 h 40 min
 serves: 10
 occasion: Weddings, memorial meals, name days
-photo_prompt: "45-degree shot. A generous heap of puffed golden fried dough squares (boorsok) on a hand-painted plate, a bowl of black tea with milk, a small jar of honey, a few sugar cubes and dried apricots on a wooden table."
+photo_prompt: "Early morning, low golden sun streaming sideways across a coffee table in the living room, long hard shadows, a couch cushion and a knitted throw at the edge of the frame. Low angle, almost eye level. A generous heap of puffed golden fried dough squares (boorsok) on a hand-painted plate, a bowl of black tea with milk, a few dried apricots."
 ingredients:
   - {q: 500, u: g, i: "plain flour, plus extra for rolling"}
   - {q: 250, u: ml, i: "warm milk"}

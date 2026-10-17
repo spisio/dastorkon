@@ -5,7 +5,7 @@ tools/photo_style.txt with the recipe's `photo_prompt` (falling back to its
 title and blurb), ask the Gemini API for a 4:3 image, and save it as JPEG.
 Reads the API key from GEMINI_API_KEY. Standard library only.
 
-Usage: python3 tools/recipe_photos.py [--model gemini-3.1-flash-image] [slug ...]
+Usage: python3 tools/recipe_photos.py [--model gemini-3.1-flash-lite-image] [slug ...]
 """
 import argparse
 import base64
@@ -68,7 +68,7 @@ def generate(prompt, model, key):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", default="gemini-3.1-flash-image")
+    ap.add_argument("--model", default="gemini-3.1-flash-lite-image")
     ap.add_argument("slugs", nargs="*")
     args = ap.parse_args()
 

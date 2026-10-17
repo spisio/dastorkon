@@ -7,7 +7,7 @@ blurb: Flaky triangular pastries filled with lamb and onion, from the bazaar tan
 time: 2 h
 serves: 12
 occasion: Bazaar food, picnics, tea
-photo_prompt: "45-degree shot. Triangular flaky golden samsa pastries sprinkled with sesame seeds, cooling on baking paper on a sheet pan, one broken open to show the chopped lamb and onion filling, a glass of tea nearby."
+photo_prompt: "Dusk, the kitchen lit by the warm ceiling light and the glow of the open oven, slightly mixed colour temperature. Overhead shot straight down onto the stovetop. Triangular flaky golden samsa sprinkled with sesame seeds on a dark, well-used sheet pan just out of the oven, one broken open to show chopped lamb and onion, a quilted oven mitt beside the pan."
 ingredients:
   - section: Dough
   - {q: 500, u: g, i: "plain flour"}

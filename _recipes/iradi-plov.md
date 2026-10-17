@@ -7,7 +7,7 @@ blurb: Short-grain rice stirred creamy in meat broth, with cumin and barberries.
 time: 1 h 15 min
 serves: 4
 occasion: Sundays, name days, church feasts
-photo_prompt: "45-degree shot. Iradi plov on a large shallow platter: short-grain rice cooked exactly like a creamy Italian risotto, the grains soft and bound together in a loose, glossy, saucy mass that spreads on the plate, not fluffy or separate. Mixed through it: carrot matchsticks, browned chunks of lamb and little red barberries, a knob of melting butter on top. Beside it a small bowl of bright magenta beet suzma (thick strained yogurt with grated beet) topped with dill, a serving spoon."
+photo_prompt: "Sunday lunch at the dining table, bright overcast midday light from a big window, a white tablecloth with a thin blue border, other plates and glasses partly in frame. 45-degree shot. Iradi plov on a large shallow platter: short-grain rice cooked exactly like a creamy Italian risotto, the grains soft and bound together in a loose, glossy, saucy mass, not fluffy or separate, with carrot matchsticks, browned chunks of lamb and red barberries, a serving spoon in it. A small bowl of bright magenta beet suzma beside it."
 ingredients:
   - {q: 500, u: g, i: "lamb shoulder or beef chuck, in 2 cm cubes"}
   - {q: 60, u: ml, i: "sunflower oil or rendered lamb fat"}

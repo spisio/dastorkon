@@ -7,7 +7,7 @@ blurb: Large steamed dumplings of chopped meat and onion, eaten with suzma and c
 time: 2 h
 serves: 6
 occasion: Weekend lunches, guests
-photo_prompt: "Overhead shot. Large steamed pleated dumplings (manty) on a plate, one cut open to show juicy chopped beef and onion, a small bowl of sour cream and a small bowl of red chilli oil, cracked black pepper, a bamboo steamer tier at the edge of the frame."
+photo_prompt: "A rainy grey afternoon, soft flat daylight from a window with raindrops on the glass, cooler colours. Side view at counter height. Steam rising from an open bamboo steamer full of large pleated dumplings (manty) on the counter, one on a small plate in front with a spoonful of sour cream, a bowl of red chilli oil nearby."
 ingredients:
   - section: Dough
   - {q: 500, u: g, i: "plain flour"}
