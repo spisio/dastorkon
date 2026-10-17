@@ -7,7 +7,7 @@ blurb: Our unleavened feast bread of flour, water and salt, baked over embers or
 time: 40 min
 serves: 4
 occasion: Weddings, baptisms, feasts, memorials
-photo_prompt: "Morning in the kitchen, cool blue-white daylight from a window behind the stove, a little steam. 45-degree shot. One round unleavened flatbread with a blistered, spotty crust and a flower pattern stamped into the top still in a black cast-iron pan on the gas stove, a second loaf wrapped in a white embroidered cloth on the counter beside it. No herbs, no oil."
+photo_prompt: "Morning in the kitchen, cool blue-white daylight from a window behind the stove, a little steam. 45-degree shot. One round unleavened flatbread with a blistered, spotty crust and a flower pattern stamped into the top still in a black cast-iron pan on the gas stove, a second loaf wrapped in a white embroidered cloth on the counter beside it. No herbs, no oil, no bottles on the counter, and the stove front is plain with no brand name."
 ingredients:
   - {q: 400, u: g, i: "plain flour (or half wholemeal)"}
   - {q: 1, u: tsp, i: "salt"}
